@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "Book shelf API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node ./src/server.js",
+    "start-dev": "nodemon --experimental-specifier-resolution=node ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "mbaguszulmi",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.21"
+  }
+}
